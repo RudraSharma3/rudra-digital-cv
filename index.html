@@ -229,25 +229,31 @@
 						</section>
 					</div>
 					<div class="col-6 col-12-medium">
-						<form method="post" action="#">
-							<div class="row gtr-50">
-								<div class="col-6 col-12-small">
-									<input type="text" name="name" placeholder="Name" />
-								</div>
-								<div class="col-6 col-12-small">
-									<input type="text" name="email" placeholder="Email" />
-								</div>
-								<div class="col-12">
-									<textarea name="message" placeholder="Message" rows="4"></textarea>
-								</div>
-								<div class="col-12">
-									<ul class="actions">
-										<li><input type="submit" class="style1" value="Send" /></li>
-										<li><input type="reset" class="style2" value="Reset" /></li>
-									</ul>
-								</div>
-							</div>
-						</form>
+						<form method="POST" action="https://formsubmit.co/rudrasharma93511@gmail.com">
+    <!-- ✅ Hidden Inputs -->
+    <input type="hidden" name="_captcha" value="false">
+    <input type="hidden" name="_next" value="https://rudrasharma3.github.io/rudra-digital-cv/">
+
+    <!-- 👤 Visible Form Inputs -->
+    <div class="row gtr-50">
+        <div class="col-6 col-12-small">
+            <input type="text" name="name" placeholder="Name" required />
+        </div>
+        <div class="col-6 col-12-small">
+            <input type="email" name="email" placeholder="Email" required />
+        </div>
+        <div class="col-12">
+            <textarea name="message" placeholder="Message" rows="4" required></textarea>
+        </div>
+        <div class="col-12">
+            <ul class="actions">
+                <li><input type="submit" class="style1" value="Send" /></li>
+                <li><input type="reset" class="style2" value="Reset" /></li>
+            </ul>
+        </div>
+    </div>
+</form>
+
 					</div>
 				</div>
 				<footer>
